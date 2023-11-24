@@ -1,0 +1,72 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.pesquisar {
+    text-align: center ;
+    padding: 0;
+    margin: 0;
+}
+
+.card-name{
+    text-align: center ;
+    text-transform: capitalize;
+}
+
+.card-personagem{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.personagem-text{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0.25rem;
+    
+}
+
+.card-img-top{
+    text-align: center ;
+    position: relative;
+    border-radius: 1rem;
+}
+
+
+.card-body{
+    text-align: center ;
+}
+
+.card-force{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+/* .ATK{
+    text-align: left ;
+} */
+
+ol {
+    padding: 20px; 
+    list-style-type: decimal;
+    list-style-type: none;
+   
+    
+
+}
+ol li {
+    float: left;
+    margin: 0 10px;
+    padding: 0 10px;
+    list-style-type: none;
+    
+}
